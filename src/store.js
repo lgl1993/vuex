@@ -24,6 +24,7 @@ export class Store {
 
     // store internal state
     this._committing = false
+    //空的对象
     this._actions = Object.create(null)
     this._mutations = Object.create(null)
     this._wrappedGetters = Object.create(null)
